@@ -14,8 +14,9 @@ tags:
   <font size="5">Created by Your Name<br>
 **Submission: March 1, 2026**<br>
 Spring - 2025
-<br>
+
 </center>
+
 
 <!-- the bracketed br is html for break and the font does change font size where center will format centrally -->
 
