@@ -2,9 +2,11 @@ site_name: Jacob Dirks Testing
 site_url: https://jacobdirks.github.io/testSite.github.io/
 repo_url: https://github.com/JacobDirks/testSite.github.io
 edit_uri: edit/main/docs/
+nav:
+  - Home: index.md
 theme:
   name: material
-  custom_dir: custom_theme/
+  #custom_dir: custom_theme/
   palette:
     primary: blue
     accent: indigo
@@ -28,8 +30,7 @@ theme:
 #    - navigation.sections
 #    - navigation.expand
 #    - navigation.instant # doesn't work that well
-nav:
-  - Home: index.md
+
 markdown_extensions:
   - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
   - md_in_html # see https://squidfunk.github.io/mkdocs-material/reference/images/
