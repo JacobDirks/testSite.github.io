@@ -2,8 +2,7 @@ site_name: Jacob Dirks Testing
 site_url: https://jacobdirks.github.io/testSite.github.io/
 repo_url: https://github.com/JacobDirks/testSite.github.io
 edit_uri: edit/main/docs/
-nav:
-  - Home: index.md
+
 theme:
   name: material
   #custom_dir: custom_theme/
