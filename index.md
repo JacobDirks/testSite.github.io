@@ -15,9 +15,9 @@ tags:
 **Submission: March 1, 2026**<br>
 Spring - 2025
 <br>
-<!-- the bracketed br is html for break and the font does change font size where center will format centrally -->
-
 </center>
+
+<!-- the bracketed br is html for break and the font does change font size where center will format centrally -->
 
 ## Emphasis is two hashtags / pounds
 
