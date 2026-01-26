@@ -13,6 +13,7 @@ theme:
   logo: static/logo.svg
   favicon: static/logo.png 
 
+
   features:
     - header.autohide
     - navigation.tabs
@@ -27,7 +28,8 @@ theme:
 #    - navigation.sections
 #    - navigation.expand
 #    - navigation.instant # doesn't work that well
-
+nav:
+  - Home: index.md
 markdown_extensions:
   - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
   - md_in_html # see https://squidfunk.github.io/mkdocs-material/reference/images/
