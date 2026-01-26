@@ -22,7 +22,7 @@ Spring - 2025
 
 ## Emphasis is two hashtags / pounds
 
-**Normal text surrounded by two ellipses = bolded**
+**Normal text surrounded by two astrisks = bolded**
 
 
 
