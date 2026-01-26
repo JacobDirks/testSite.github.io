@@ -35,6 +35,7 @@ Now we're back to normal text
 > hi
 > this is a weird text
 
-|Excel | Spreadsheet|
-| :------- | :------------------|
-| we want  | A spreadsheet like table|
+|Excel      | Spreadsheet              |
+| :-------  | :------------------      |
+| we want   | A spreadsheet like table |
+| therefore | we make it look like one |
