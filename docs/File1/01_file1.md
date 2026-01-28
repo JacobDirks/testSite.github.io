@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 
-## **Pound is emphasis and two astrixes makes it bold **
+## **Pound is emphasis and two astrixes makes it bold**
 
 This is normal text. But there is a way to make it so that extra text has a scroll bar instead of wrapping around. How do you plan for that? Can you figure out that feature?
 
