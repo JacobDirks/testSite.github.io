@@ -15,6 +15,7 @@ This is normal text. But there is a way to make it so that extra text has a scro
 
 __ Double undescore does it do something or do we need to... __
 <u> do a u surrounding by carrots through html </u>
+
 ++ double plus signs ++
 == Double equal signs for highlight ==
 H~2~O is done through 1 tilde surrounding 2 but ~could be like this too~
