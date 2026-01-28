@@ -11,15 +11,14 @@ This is normal text. But there is a way to make it so that extra text has a scro
 
 ## Emphasis without bold
 
-~~Does double tilde strike through? ~~ 
+~~Does double tilde strike through? Yes but not with spaces~~ 
 
 __ Double undescore does it do something or do we need to... __
 <u> do a u surrounding by carrots through html </u>
 
 ++ double plus signs ++
 == Double equal signs for highlight ==
-H~2~O is done through 1 tilde surrounding 2 but ~could be like this too~
-x^2^ is two of the shift+6 symbol ^.
+~Strike through with one tilde~  
 
 Basically some symbols work and some don't. 
 
@@ -36,10 +35,6 @@ but it does want a language specified.
 
 Can you shrink that smaller in case we had 5000 lines of code?
 Do you need to paste code here or could you have a code file?
-
-- [x] Write tasks
-- [ ] undone task
-- [ ] can the user use this?
 
 * do we want bullets
 * Then we use 1 astrisk per bullet
