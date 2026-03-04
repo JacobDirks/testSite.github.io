@@ -2,7 +2,11 @@ site_name: Jacob Dirks Testing
 site_url: https://jacobdirks.github.io/testSite.github.io/
 repo_url: https://github.com/JacobDirks/testSite.github.io
 edit_uri: edit/main/docs/
+#-----------------------------------------------------------------
+# Above is site headers and places that start updates
+# Below is the actual build elements
 
+#Standard for setting up theme could add a custom theme as shown by comment below
 theme:
   name: material
   #custom_dir: custom_theme/
@@ -13,7 +17,7 @@ theme:
     text: Roboto
   logo: static/logo.svg
   favicon: static/logo.png 
-
+# Right above is how you'd add an ICON to the site
 
   features:
     - header.autohide
@@ -30,6 +34,8 @@ theme:
 #    - navigation.expand
 #    - navigation.instant # doesn't work that well
 
+
+#this helps add different elements like images and charts (mermaid is a chart system)
 markdown_extensions:
   - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
   - md_in_html # see https://squidfunk.github.io/mkdocs-material/reference/images/
@@ -61,5 +67,5 @@ extra_javascript:
     
 not_in_nav: |
   static
-  
+   #needed for EGR 3x4 robotics path not sure for others.
 copyright: "Copyright &copy; N/A"
