@@ -37,7 +37,7 @@
       
         
         
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
@@ -134,7 +134,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
@@ -151,7 +151,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" data-md-scrollfix="">
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -271,7 +271,7 @@
 </a>
     </div>
   
-  <ul class="md-nav__list" data-md-scrollfix>
+  <ul class="md-nav__list" data-md-scrollfix="">
     
       
       
@@ -321,7 +321,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -340,7 +340,7 @@
             <span class="md-nav__icon md-icon"></span>
             File1
           </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+          <ul class="md-nav__list" data-md-scrollfix="">
             
               
                 
@@ -388,7 +388,7 @@
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
   <a href="#pound-is-emphasis-and-two-astrixes-makes-it-bold" class="md-nav__link">
@@ -403,6 +403,15 @@
   <a href="#emphasis-without-bold" class="md-nav__link">
     <span class="md-ellipsis">
       Emphasis without bold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-the-behind-the-scenes-in-a-markdown-code-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the behind the scenes in a markdown code section.
     </span>
   </a>
   
@@ -446,7 +455,7 @@
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
   <a href="#pound-is-emphasis-and-two-astrixes-makes-it-bold" class="md-nav__link">
@@ -461,6 +470,15 @@
   <a href="#emphasis-without-bold" class="md-nav__link">
     <span class="md-ellipsis">
       Emphasis without bold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-the-behind-the-scenes-in-a-markdown-code-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the behind the scenes in a markdown code section.
     </span>
   </a>
   
@@ -494,23 +512,24 @@
 <h2 id="pound-is-emphasis-and-two-astrixes-makes-it-bold"><strong>Pound is emphasis and two astrixes makes it bold</strong></h2>
 <p>This is normal text. But there is a way to make it so that extra text has a scroll bar instead of wrapping around. How do you plan for that? Can you figure out that feature?</p>
 <h2 id="emphasis-without-bold">Emphasis without bold</h2>
-<p><del>Does double tilde strike through? Yes but not with spaces</del> </p>
-<p>__ Double undescore does it do something or do we need to... __
+<p><del>Double tilde does strikethrough</del> </p>
+<p><strong>Double underscore does not work with spaces but for some reason bolds?</strong>
+<em>Single underscore does italics</em>
 <u> do a u surrounding by carrots through html </u></p>
-<p>++ double plus signs ++
-== Double equal signs for highlight ==
+<p>++double plus signs++
+==Double equal signs for highlight==
 ~Strike through with one tilde~  </p>
-<p>Basically some symbols work and some don't. </p>
+<p>Basically some symbols work for some purpose and some don't but can be found by either testing it or by research.</p>
 <blockquote>
 <p>Greater than symbols
 Create this kind of text.</p>
 </blockquote>
 <p>along the tilde key but without shift
-<code>one tick does an inline code segment</code>
-</p><div class="highlight"><pre><span></span><code><span class="n">Triple</span><span class="w"> </span><span class="n">ticks</span>
+<code>one tick does an inline code segment</code></p>
+<div class="highlight"><pre><span></span><code><span class="n">Triple</span><span class="w"> </span><span class="n">ticks</span>
 <span class="n">does</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="n">block</span>
 <span class="n">but</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="n">does</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">language</span><span class="w"> </span><span class="n">specified</span><span class="p">.</span>
-</code></pre></div><p></p>
+</code></pre></div>
 <p>Can you shrink that smaller in case we had 5000 lines of code?
 Do you need to paste code here or could you have a code file?</p>
 <ul>
@@ -518,6 +537,43 @@ Do you need to paste code here or could you have a code file?</p>
 <li>Then we use 1 astrisk per bullet</li>
 <li>but we can merge with the greater than symbol </li>
 </ul>
+<h2 id="viewing-the-behind-the-scenes-in-a-markdown-code-section">Viewing the behind the scenes in a markdown code section.</h2>
+<div class="highlight"><pre><span></span><code><span class="gu">## **Pound is emphasis and two astrixes makes it bold**</span>
+
+This is normal text. But there is a way to make it so that extra text has a scroll bar instead of wrapping around. How do you plan for that? Can you figure out that feature?
+
+<span class="gu">## Emphasis without bold</span>
+
+<span class="gd">~~Double tilde does strikethrough~~</span> 
+
+<span class="gs">__Double underscore does not work with spaces but for some reason bolds?__</span>
+<span class="ge">_Single underscore does italics_</span>
+&lt;u&gt; do a u surrounding by carrots through html &lt;/u&gt;
+
+++double plus signs++
+==Double equal signs for highlight==
+~Strike through with one tilde~  
+
+Basically some symbols work for some purpose and some don't but can be found by either testing it or by research.
+
+<span class="k">&gt; </span><span class="ge">Greater than symbols</span>
+<span class="k">&gt; </span><span class="ge">Create this kind of text.</span>
+
+along the tilde key but without shift
+<span class="sb">` one tick does an inline code segment `</span>
+`` Arduino &lt;!-- removed a tick since that would prevent my major code block from doing its thing --&gt;
+Triple ticks
+does a code block
+but it does want a language specified.
+``
+
+Can you shrink that smaller in case we had 5000 lines of code?
+Do you need to paste code here or could you have a code file?
+
+<span class="k">*</span><span class="w"> </span>do we want bullets
+<span class="k">*</span><span class="w"> </span>Then we use 1 astrisk per bullet
+<span class="k">*</span><span class="w"> </span>but we can merge with the greater than symbol
+</code></pre></div>
 
 
 
@@ -541,7 +597,7 @@ Do you need to paste code here or could you have a code file?</p>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
   Back to top
