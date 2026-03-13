@@ -40,3 +40,30 @@ Now we're back to normal text
 | :-------  | :------------------      |
 | we want   | A spreadsheet like table |
 | therefore | we make it look like one |
+
+## Viewing the backend
+
+Now to view it you use three ` which is on upper left of keyboard under the ~ symbol.
+
+```markdown
+## Emphasis is two hashtags / pounds
+
+**Normal text surrounded by two astrisks = bolded**
+
+
+
+Now we're back to normal text
+[HyperlinkText](https://youtu.be/dQw4w9WgXcQ?si=6tFufGTCMs5t37Ex)
+[!Replace text with image](relativeFileSetup/FileName)
+
+* Bullet point 1
+* Bullet point 2
+
+> hi
+> this is a weird text
+
+|Excel      | Spreadsheet              |
+| :-------  | :------------------      |
+| we want   | A spreadsheet like table |
+| therefore | we make it look like one |
+```
