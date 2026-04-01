@@ -13,7 +13,7 @@ This section of the site has been created as a shared section with students lear
  Before you start:
 
  > * Purpose and Goals
- > * Targe Audience
+ > * Target Audience
  > * Personal Brand w/ Images and Messaging
  > * Management Routine
  > * Searching and Networking Strategies
